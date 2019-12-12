@@ -234,7 +234,6 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
-
 #resume {
    background: #fff;
    padding-top: 90px;
@@ -808,8 +807,21 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+/* #contact a, #contact a:visited  { color: #11ABB0; } */
 #contact a:hover, #contact a:focus { color: #fff; }
+
+#contact .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#contact .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#contact .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -819,7 +831,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
-#contact h1:before {
+/* #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
@@ -828,7 +840,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
-}
+} */
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;

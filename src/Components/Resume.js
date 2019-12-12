@@ -10,6 +10,24 @@ class Resume extends Component {
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
+
+      var kidNames = this.props.data.kids.map(function(kid){
+        return <div key={kid.name}><h5>{kid.name}</h5>
+        <p className="info">{kid.school} 
+        {kid.class?
+        ( 
+        <React.Fragment>
+        <span>&bull;</span>
+          <em className="date">{kid.class} Grade
+          </em>
+          </React.Fragment>
+          ):
+        (<p></p>)  
+       } 
+        </p>
+        <p></p>
+        </div>
+      })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
@@ -27,20 +45,21 @@ class Resume extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Current Students</span></h1>
          </div>
 
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
-                 {education}
+                 {/* {education} */}
+                 {kidNames}
                </div>
             </div>
          </div>
       </div>
 
 
-      <div className="row work">
+      {/* <div className="row work">
 
          <div className="three columns header-col">
             <h1><span>Work</span></h1>
@@ -70,7 +89,7 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
-      </div>
+      </div> */}
    </section>
     );
   }

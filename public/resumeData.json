@@ -5,7 +5,7 @@
     "description":"I'm taking offline as well as online batches to teach Mathematics to students till Class 10th. Below is the curriculum for all classes",
     "image":"profilepic.jpg",
     "bio":"I have done Bachelors with Maths as my main subject. Also, I have done M.Phil. in Computer Science. I have taught Computer Science & Maths to B.Tech and MCA Students for 15 Years. While teaching I have observed weak Mathematical foundation of students. So, I decided to improve the mathematical thinking of students. I have found the right platform (Cuemath) through which I can fulfill my dream to teach kids.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"If you would like to contact me, kindly use one of these options",
     "email": "godlyraj@gmail.com",
     "phone": "9910993867",
     "address":{
@@ -68,6 +68,78 @@
         "degree":"What did you study 101",
         "graduated":"March 2003",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "kids":[
+      {
+        "school":"Navy School",
+        "name":"Aashman",
+        "batch":"2019",
+        "class":"6th",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"-",
+        "name":"Pranshu",
+        "batch":"2019",
+        "class":"6th",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"DPS VK",
+        "name":"Yash",
+        "batch":"2019",
+        "class":"6th",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"St. Mary",
+        "name":"Vanshika",
+        "batch":"2019",
+        "class":"5th",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"-",
+        "name":"Inesh",
+        "batch":"2019",
+        "class":"4th",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"-",
+        "name":"Sharanya",
+        "batch":"2019",
+        "class":"4th",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Bhatnagar International School",
+        "name":"Avni",
+        "batch":"2019",
+        "class":"2nd",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"DPS VK",
+        "name":"Kiara",
+        "batch":"2019",
+        "class":"2nd",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"DPS VK",
+        "name":"Tanushree",
+        "batch":"2019",
+        "class":"2nd",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"",
+        "name":"And many more...",
+        "batch":"",
+        "class":"",
+        "description":""
       }
     ],
     "work":[

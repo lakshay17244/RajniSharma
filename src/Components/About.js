@@ -44,7 +44,7 @@ class About extends Component {
                      <a href={resumeDownload} className="button"><img 
                      style={{verticalAlign:'middle',
                               marginRight: '10px'}}
-                     src={whatsappIcon} height='27' width='27'/>Contact Me</a>
+                     src={whatsappIcon} height='27' width='27'/>Whatsapp Me</a>
                   </p>
                </div>
             </div>

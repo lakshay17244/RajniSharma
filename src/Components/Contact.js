@@ -12,6 +12,8 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var resumeDownload = this.props.data.resumedownload;
+      var whatsappIcon="images/whatsapp.png";
     }
 
     return (
@@ -34,9 +36,8 @@ class Contact extends Component {
          </div>
 
          <div className="row">
-            <div className="eight columns">
-
-               <form action="" method="post" id="contactForm" name="contactForm">
+            <div className="six columns">
+               {/* <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -66,16 +67,28 @@ class Contact extends Component {
                      </span>
                   </div>
 					</fieldset>
-				   </form>
+				   </form> */}
 
-           <div id="message-warning"> Error boy</div>
+           {/* <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
+				   </div> */}
+
+         
+            <div className="columns download">
+            <h4>Whatsapp</h4>
+                  <p>
+                     <a href={resumeDownload} className="button"><img 
+                     style={{verticalAlign:'middle',
+                  marginRight:'10px'}}
+                     src={whatsappIcon} height='27' width='27'/>Whatsapp Me</a>
+                  </p>
+            </div>
            </div>
 
+           
 
-            <aside className="four columns footer-widgets">
+            <aside className="six columns footer-widgets">
                <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
@@ -87,7 +100,7 @@ class Contact extends Component {
 					   </p>
 				   </div>
 
-               <div className="widget widget_tweets">
+               {/* <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>
                   <ul id="twitter">
                      <li>
@@ -108,6 +121,8 @@ class Contact extends Component {
                      </li>
                   </ul>
 		         </div>
+             */}
+            
             </aside>
       </div>
    </section>
