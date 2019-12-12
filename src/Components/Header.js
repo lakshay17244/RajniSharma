@@ -5,6 +5,7 @@ class Header extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
+      var profilepic= "images/"+this.props.data.image;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
@@ -34,9 +35,12 @@ class Header extends Component {
       </nav>
 
       <div className="row banner">
+      {/* <div className="three columns"> */}
+            <img className="profile-pic"  src={profilepic} alt="Rajni Sharma Profile Pic" />
+         {/* </div> */}
          <div className="banner-text">
             <h1 className="responsive-headline">May I Help You?</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3>Hi I'm <span>Rajni Sharma (Cuemath Certified teacher)</span>. {description}.</h3>
             <hr />
             <ul className="social">
                {networks}

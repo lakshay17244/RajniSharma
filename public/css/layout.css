@@ -448,6 +448,13 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 
+.profile-pic {
+   position: relative;
+   width: 16rem;
+   height: 16rem;
+   border-radius: 100%;
+}
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;

@@ -2,9 +2,9 @@
   "main": {
     "name":"Rajni Sharma",
     "occupation":"teacher",
-    "description":"I teach kids from 2nd grade upto 10th grade. I'm currently offering courses in Cuemath for grade 1st to grade 6th. And offering courses in NCERT from grade 7th to 10th",
+    "description":"I'm taking offline as well as online batches to teach Mathematics to students till Class 10th. Below is the curriculum for all classes",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I have done Bachelors with Maths as my main subject. Also, I have done M.Phil. in Computer Science. I have taught Computer Science & Maths to B.Tech and MCA Students for 15 Years. While teaching I have observed weak Mathematical foundation of students. So, I decided to improve the mathematical thinking of students. I have found the right platform (Cuemath) through which I can fulfill my dream to teach kids.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "godlyraj@gmail.com",
     "phone": "9910993867",
@@ -15,7 +15,7 @@
       "zip": "110070"
     },
     "website": "http://www.rajnisharma.netlify.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://api.whatsapp.com/send?phone=+919910993867",
     "social":[
       {
         "name":"I",
@@ -48,8 +48,8 @@
         "className":"fa fa-github"
       },
       {
-        "name":"VII",
-        "url":"https://www.cuemath.com/s/class-7/",
+        "name":"VII - X",
+        "url":"https://www.cuemath.com/leap/",
         "className":"fa fa-skype"
       }
     ]
