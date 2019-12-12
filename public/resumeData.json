@@ -6,50 +6,50 @@
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "godlyraj@gmail.com",
+    "phone": "9910993867",
     "address":{
       "street":"6085/2, D6 Santushti Apartments",
       "city":"New Delhi",
       "state":"Delhi",
       "zip": "110070"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://www.rajnisharma.netlify.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "name":"I",
+        "url":"https://www.cuemath.com/grades/class-1/",
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
+        "name":"II",
+        "url":"https://www.cuemath.com/grades/class-2/",
         "className":"fa fa-twitter"
       },
       {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
+        "name":"III",
+        "url":"https://www.cuemath.com/grades/class-3/",
         "className":"fa fa-google-plus"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "name":"IV",
+        "url":"https://www.cuemath.com/grades/class-4/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "name":"V",
+        "url":"https://www.cuemath.com/grades/class-5/",
         "className":"fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
+        "name":"VI",
+        "url":"https://www.cuemath.com/grades/class-6/",
         "className":"fa fa-github"
       },
       {
-        "name":"skype",
-        "url":"http://skype.com",
+        "name":"VII",
+        "url":"https://www.cuemath.com/s/class-7/",
         "className":"fa fa-skype"
       }
     ]
