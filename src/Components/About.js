@@ -27,27 +27,14 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><img 
-                     style={{verticalAlign:'middle',
-                              marginRight: '10px'}}
-                     src={whatsappIcon} height='27' width='27'/>Whatsapp Me</a>
-                  </p>
-               </div>
-            </div>
+            {/* <div className="rows" style={{textAlign:'center'}}>
+                     <a href={resumeDownload} className="button">
+                        <img style={{
+                           verticalAlign: 'middle',
+                           marginRight: '10px'
+                        }}
+                        src={whatsappIcon} height='27' width='27' />Whatsapp Me</a>
+               </div> */}
          </div>
       </div>
 
