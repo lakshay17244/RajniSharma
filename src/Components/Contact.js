@@ -19,11 +19,12 @@ class Contact extends Component {
       return (
          <section id="contact">
             <div className="row section-head">
-               <div className="two columns header-col">
-                  <h1><span>Get In Touch.</span></h1>
+               <div className="rows header-col" style={{textAlign:'center'}}>
+                  {/* <h1><span>Get In Touch.</span></h1> */}
+                  <h1>Get In Touch.</h1>
                </div>
-               <div className="ten columns">
-                  <p className="lead">{message}</p>
+               <div className="rows" style={{textAlign:'center'}}>
+                  <p className="lead" style={{paddingLeft:'3%'}}>{message}</p>
                </div>
             </div>
 
