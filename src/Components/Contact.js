@@ -38,8 +38,8 @@ class Contact extends Component {
                      </span><br />
 
                     
-                     <span> <a href={"tel:"+phone}>{phone}</a></span><br />
-                     <span>< a href={"mailto:"+email}>{email}</a></span>
+                     <span><i class="fa fa-phone" style={{marginRight:'10px'}}></i> <a href={"tel:"+phone}>{phone}</a></span><br />
+                     <span><i class="fa fa-envelope" style={{marginRight:'10px'}}></i>< a href={"mailto:"+email}>{email}</a></span>
                   </p>
                </div>
                <div className="rows download" style={{ textAlign: 'center' }}>
