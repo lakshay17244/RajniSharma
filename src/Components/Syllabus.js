@@ -27,9 +27,9 @@ class Syllabus extends Component {
                         <a className="button" href="https://www.cuemath.com/foundation-math-program/" target='_blank'>
                             <h4><span>Grade KG to 6th</span></h4>
                             <p>Foundation Math Program</p>
-                            <h5 classname='columns'> <i className='fa fa-map-marker'></i>At a center near you</h5>
+                            <h5 className='columns'> <i className='fa fa-map-marker'></i>At a center near you</h5>
                             <br />
-                            <h5>Click to know more...</h5>
+                            <h5 style={{marginTop:'10px'}}>Click to know more...</h5>
                         </a>
                     </div>
 
@@ -37,12 +37,12 @@ class Syllabus extends Component {
                         <a className="button" href="https://www.cuemath.com/leap/" target='_blank'>
                             <h4><span>Grade 7th to 10th</span></h4>
                             <p>Cuemath Leap Program</p>
-                            <h5><i className='fa fa-rocket'></i>Live Online Classes</h5>
+                            <h5 className='columns'><i className='fa fa-rocket'></i>Live Online Classes</h5>
                             <br />
-                            <h5>Click to know more...</h5>
+                            <h5 style={{marginTop:'10px'}}>Click to know more...</h5>
                         </a>
                     </div>
-
+                
                 </div>
 
             </section>

@@ -18,19 +18,19 @@ class Contact extends Component {
 
       return (
          <section id="contact">
-            <div className="row section-head">
-               <div className="rows header-col" style={{ textAlign: 'center' }}>
-                  {/* <h1><span>Get In Touch.</span></h1> */}
-                  <h1>Get In Touch.</h1>
-               </div>
-               <div className="rows" style={{ textAlign: 'center' }}>
-                  <p className="lead" style={{ paddingLeft: '3%' }}>{message}</p>
-               </div>
+            {/* <div className="row section-head"> */}
+            <div className="rows header-col" style={{ textAlign: 'center' }}>
+               {/* <h1><span>Get In Touch.</span></h1> */}
+               <h1>Get In Touch.</h1>
             </div>
+            <div className="rows" style={{ textAlign: 'center' }}>
+               <p className="lead" style={{ paddingLeft: '3%' }}>{message}</p>
+            </div>
+            {/* </div> */}
 
-            <div className="row centered">
+            <div className="row centered" style={{ marginTop: '30px' }}>
                <div className="rows" style={{ textAlign: 'center' }}>
-                  <h1>Contact Details</h1>
+                  <h2>Contact Details</h2>
                   <p className="address">
                      <span>{name}</span><br />
                      <span>{street}<br />
@@ -44,16 +44,18 @@ class Contact extends Component {
                   </p>
                </div>
                <div className="rows download" style={{ textAlign: 'center' }}>
-                  <a href={whatsappLink} className="button"><img
-                     style={{
-                        verticalAlign: 'middle',
-                        marginRight: '10px'
-                     }}
-                     src={whatsappIcon} height='27' width='27' />Whatsapp Me</a>
+                  <a href={whatsappLink} className="button">
+                     <img
+                        style={{
+                           verticalAlign: 'middle',
+                           marginRight: '10px'
+                        }}
+                        src={whatsappIcon} height='27' width='27' />Whatsapp Me
+                     </a>
                </div>
-               
+
             </div>
-             </section>
+         </section>
       );
    }
 }
