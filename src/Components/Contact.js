@@ -19,12 +19,12 @@ class Contact extends Component {
       return (
          <section id="contact">
             <div className="row section-head">
-               <div className="rows header-col" style={{textAlign:'center'}}>
+               <div className="rows header-col" style={{ textAlign: 'center' }}>
                   {/* <h1><span>Get In Touch.</span></h1> */}
                   <h1>Get In Touch.</h1>
                </div>
-               <div className="rows" style={{textAlign:'center'}}>
-                  <p className="lead" style={{paddingLeft:'3%'}}>{message}</p>
+               <div className="rows" style={{ textAlign: 'center' }}>
+                  <p className="lead" style={{ paddingLeft: '3%' }}>{message}</p>
                </div>
             </div>
 
@@ -36,8 +36,10 @@ class Contact extends Component {
                      <span>{street}<br />
                         {city} {state}, {zip}
                      </span><br />
-                     <span>{phone}</span><br />
-                     <span>{email}</span>
+
+                    
+                     <span> <a href={"tel:"+phone}>{phone}</a></span><br />
+                     <span>< a href={"mailto:"+email}>{email}</a></span>
                   </p>
                </div>
                <div className="rows download" style={{ textAlign: 'center' }}>
