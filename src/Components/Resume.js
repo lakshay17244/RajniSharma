@@ -43,7 +43,7 @@ class Resume extends Component {
     return (
       <section id="resume">
 
-      <div className="row education">
+      <div className="row">
          <div className="three columns header-col">
             <h1><span>Current Batch</span></h1>
          </div>
@@ -53,6 +53,7 @@ class Resume extends Component {
                <div className="twelve columns">
                  {/* {education} */}
                  {kidNames}
+                 {/* <hr /> */}
                </div>
             </div>
          </div>
