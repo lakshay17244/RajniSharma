@@ -37,9 +37,10 @@ class Contact extends Component {
                         {city} {state}, {zip}
                      </span><br />
 
-                    
-                     <span><i class="fa fa-phone" style={{marginRight:'10px'}}></i> <a href={"tel:"+phone}>{phone}</a></span><br />
-                     <span><i class="fa fa-envelope" style={{marginRight:'10px'}}></i>< a href={"mailto:"+email}>{email}</a></span>
+
+                     <span><i class="fa fa-phone" style={{ marginRight: '10px' }}></i> <a href={"tel:" + phone}>{phone}</a></span><br />
+                     <span><i class="fa fa-envelope" style={{ marginRight: '10px' }}></i>< a href={"mailto:" + email}>{email}</a></span><br />
+                     <span><i class="fa fa-hand-o-right" style={{ marginRight: '10px' }}></i>< a href="https://goo.gl/maps/Q16tNXb4vasQUFFUA" target='_blank'>Directions</a></span>
                   </p>
                </div>
                <div className="rows download" style={{ textAlign: 'center' }}>
@@ -50,8 +51,9 @@ class Contact extends Component {
                      }}
                      src={whatsappIcon} height='27' width='27' />Whatsapp Me</a>
                </div>
+               
             </div>
-         </section>
+             </section>
       );
    }
 }

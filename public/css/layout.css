@@ -2,6 +2,23 @@
    margin: auto
 }
 
+.centertext {
+   text-align: center;
+}
+
+#syllabus .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#syllabus .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#syllabus .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
 .aws-btn {
    --slider-height-percentage: 60% !important;
    --slider-transition-duration: 700ms !important;
@@ -87,7 +104,7 @@ header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
-   width: 70%;
+   /* width: 70%; */
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -101,8 +118,11 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
+header p{
+   margin: 10px 0px 10px 0px;
+}
 /* header social links */
-header .social {
+/* header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
@@ -114,7 +134,23 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #11ABB0; } */
+
+
+#about .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#about .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+#about .social li a { color: #fff; }
+#about .social li a:hover { color: #11ABB0; }
+
 
 /* scrolldown link */
 header .scrolldown a {
@@ -216,7 +252,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 30px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -440,8 +476,8 @@ ul#nav li.current a { color: #F06000; }
 #portfolio {
    /* background: #ebeeee; */
    background: #313131;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 7rem;
+   padding-bottom: 90px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -450,6 +486,12 @@ ul#nav li.current a { color: #F06000; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+
+#portfolio h2 {
+   font: 30px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
 }
 
 /* Portfolio Content */
@@ -833,6 +875,18 @@ call-to-action .button {
 /* #contact a, #contact a:visited  { color: #11ABB0; } */
 #contact a:hover, #contact a:focus { color: #fff; }
 
+/* #contact .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#contact .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#contact .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+} */
 #contact .download .button {
    margin-top: 6px;
    background: #444;
@@ -845,9 +899,23 @@ call-to-action .button {
    margin-right: 15px;
    font-size: 20px;
 }
+header .download .button {
+   /* margin-top: 15px; */
+   margin: 10px 0px 10px 0px;
+   /* margin-bottom: 0px; */
+   background: #444;
+}
+header .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+header .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 30px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -1051,3 +1119,187 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+/* ------------------------------------------------------------------ */
+/* h. syllabus Section
+/* ------------------------------------------------------------------ */
+
+#syllabus {
+   background: #191919;
+   padding-top: 96px;
+   padding-bottom: 103px;
+   color: #636363;
+}
+#syllabus .section-head { margin-bottom: 42px; }
+
+/* #syllabus a, #syllabus a:visited  { color: #11ABB0; } */
+#syllabus a:hover, #syllabus a:focus { color: #fff; }
+
+#syllabus .download .button {
+   margin-top: 6px;
+   padding: 30px 30px 30px 30px;
+   background: #2B2B2B;
+}
+#syllabus .download .button:hover {
+   background: #444;
+   color: #fff;
+}
+#syllabus .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+header .download .button {
+   /* margin-top: 15px; */
+   margin: 10px 0px 10px 0px;
+   /* margin-bottom: 0px; */
+   background: #444;
+}
+header .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+header .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+/* #syllabus h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#syllabus h1 span { display: none; } */
+
+#syllabus h1 {
+   font: 30px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#syllabus h4 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+/* #syllabus h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0e0";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #ebeeee;
+} */
+
+#syllabus h4 {
+   font: 20px/24px 'opensans-light', sans-serif;
+   color: #EBEEEE;
+   /* margin-bottom: 6px; */
+}
+#syllabus h5 {
+   font: 15px/24px 'opensans-light', sans-serif;
+   color: #EBEEEE;
+   /* margin-bottom: 6px; */
+}
+#syllabus p {
+   font: 18px/36px 'opensans-light', sans-serif;
+   /* padding-right: 3%; */
+   margin: 15px 0px 0px 0px;
+}
+#syllabus .header-col { padding-top: 6px; }
+
+
+/* syllabus form */
+#syllabus form { margin-bottom: 30px; }
+#syllabus label {
+   font: 15px/24px 'opensans-bold', sans-serif;
+   margin: 12px 0;
+   color: #EBEEEE;
+	display: inline-block;
+	float: left;
+   width: 26%;
+}
+#syllabus input,
+#syllabus textarea,
+#syllabus select {
+   padding: 18px 20px;
+	color: #eee;
+	background: #373233;
+	margin-bottom: 42px;
+	border: 0;
+	outline: none;
+   font-size: 15px;
+   line-height: 24px;
+   width: 65%;
+}
+#syllabus input:focus,
+#syllabus textarea:focus,
+#syllabus select:focus {
+	color: #fff;
+	background-color: #11ABB0;
+}
+#syllabus button.submit {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#fff;
+   background: #0D0D0D;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   margin-left: 26%;
+}
+#syllabus button.submit:hover {
+	color: #0D0D0D;
+	background: #fff;
+}
+#syllabus span.required {
+	color: #11ABB0;
+	font-size: 13px;
+}
+#message-warning, #message-success {
+   display: none;
+	background: #0F0F0F;
+	padding: 24px 24px;
+	margin-bottom: 36px;
+   width: 65%;
+   margin-left: 26%;
+}
+#message-warning { color: #D72828; }
+#message-success { color: #11ABB0; }
+
+#message-warning i,
+#message-success i {
+   margin-right: 10px;
+}
+#image-loader {
+   display: none;
+   position: relative;
+   left: 18px;
+   top: 17px;
+}
+
+
+/* Twitter Feed */
+#twitter {
+   margin-top: 12px;
+   padding: 0;
+}
+#twitter li {
+   margin: 6px 0px 12px 0;
+   line-height: 30px;
+}
+#twitter li span {
+   display: block;
+}
+#twitter li b a {
+   font: 13px/36px 'opensans-regular', Sans-serif;
+   color: #474747 !important;
+   border: none;
+}

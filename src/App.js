@@ -10,7 +10,7 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 import Gallery from './Components/Gallery';
-
+import Syllabus from './Components/Syllabus';
 class App extends Component {
 
   constructor(props){
@@ -49,8 +49,9 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
+        <Syllabus data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        {/* <Gallery data={this.state.resumeData.portfolio}/> */}
+        <Gallery data={this.state.resumeData.portfolio}/>
         {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         <Contact data={this.state.resumeData.main}/>
