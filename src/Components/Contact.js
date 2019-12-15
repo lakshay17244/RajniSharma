@@ -30,7 +30,7 @@ class Contact extends Component {
 
             <div className="row centered">
                <div className="rows" style={{ textAlign: 'center' }}>
-                  <h2>Contact Details</h2>
+                  <h1>Contact Details</h1>
                   <p className="address">
                      <span>{name}</span><br />
                      <span>{street}<br />
