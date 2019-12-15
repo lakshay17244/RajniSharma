@@ -78,8 +78,9 @@ class Resume extends Component {
                 width: "100%",
                 height: "100%"
               }}
-              src={`https://www.youtube.com/embed/MmtXTo7Q1M0`}
+              src={`https://www.youtube.com/embed/MmtXTo7Q1M0?&autoplay=1&mute=1&enablejsapi=1`}
               frameBorder="0"
+              allow="autoplay" allowfullscreen
             />
           </div>
           {/* <hr /> */}
