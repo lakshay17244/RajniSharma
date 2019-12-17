@@ -22,6 +22,7 @@ class Contact extends Component {
             <div className="rows header-col" style={{ textAlign: 'center' }}>
                {/* <h1><span>Get In Touch.</span></h1> */}
                <h1>Get In Touch.</h1>
+               <span><i class="fa fa-calendar" style={{ marginRight: '10px' }}></i> <a href='https://forms.gle/2XyzAftxjdH6enW3A' target='_blank'>Click To Get Appointment Slot</a></span><br />
             </div>
             <div className="rows" style={{ textAlign: 'center' }}>
                <p className="lead" style={{ paddingLeft: '3%' }}>{message}</p>
