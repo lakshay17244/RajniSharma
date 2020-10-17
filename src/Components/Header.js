@@ -52,7 +52,7 @@ class Header extends Component {
                <div className="banner-text">
                   <h1 className="responsive-headline">May I Help You?</h1>
                   <h3>Hi I'm <span>Rajni Sharma, the Educator</span>. <br />
-                     I offer <a href='https://www.cuemath.com/' target='_blank'>Cuemath</a> offline courses (till class 6th) for those students who can come to class, and online courses(from class 1st to 10th) for those students who want classes from their home. I also offer Maths NCERT tuitions from 7th to 10th grade.
+                     I am teaching <a href='https://www.cuemath.com/' target='_blank'>Cuemath</a> courses of maths and coding to national and international students. I take math classes from Grade I to Grade X. I also teach Python language, App Lab, and Game Lab.
                   </h3>
 
 
